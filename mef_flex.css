@@ -11,11 +11,17 @@ header {
   padding: 10px;
 }
 
+.corps2 {
+  display: flex;
+  flex-direction: row;
+  border: solid;
+  height: 90%;
+}
+
 nav {
   color: rgb(248, 246, 250);
   background-color: rgb(125, 196, 224);
-  /*width: 15%;
-  height: 90%;*/
+  width: 15%;
   top: 50px;
   padding: 1%;
   border: 1px solid blue;
@@ -23,4 +29,31 @@ nav {
 }
 nav h1 {
   text-align: center;
+}
+
+section {
+  width: 82%;
+  top: 50px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  border: solid;
+}
+
+img {
+  border: solid;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  float: left;
+}
+
+video {
+  border: solid;
+  width: 150px;
+  margin: 10px;
+  float: left;
 }
