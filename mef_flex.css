@@ -1,21 +1,23 @@
 body {
   font-family: "Source code pro", Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
   color: rgb(248, 246, 250);
-  font-size: 12px;
+  font-size: 1em;
   text-align: center;
   background-color: rgb(33, 136, 233);
   height: 10%;
   padding: 10px;
 }
 
-.corps2 {
+.contenuprincipal {
   display: flex;
   flex-direction: row;
-  border: solid;
-  height: 90%;
+  min-height: 100vh;
 }
 
 nav {
@@ -40,7 +42,12 @@ section {
 }
 
 article {
-  border: solid;
+  border: 1px solid blue;
+  margin: 5px;
+  padding: 1em;
+  background-color: rgb(188, 216, 224);
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px gray;
 }
 
 img {
