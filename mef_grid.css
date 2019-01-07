@@ -1,0 +1,61 @@
+body {
+  font-family: "Source code pro", Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 170px auto;
+
+  grid-template-rows: 100px auto;
+  grid-template-areas:
+    "header header"
+    "nav section";
+}
+
+header {
+  color: rgb(248, 246, 250);
+  font-size: 1em;
+  text-align: center;
+  background-color: rgb(33, 136, 233);
+  padding: 10px;
+  grid-area: header;
+}
+
+nav {
+  color: rgb(248, 246, 250);
+  background-color: rgb(125, 196, 224);
+  padding: 1%;
+  border: 1px solid blue;
+  box-shadow: 2px 2px 2px gray;
+  grid-area: nav;
+}
+nav h1 {
+  text-align: center;
+}
+
+section {
+  grid-area: section;
+  border: 1px solid;
+}
+
+article {
+  border: 1px solid blue;
+  margin: 5px;
+  padding: 1em;
+  background-color: rgb(188, 216, 224);
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px gray;
+}
+
+img {
+  border: solid;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  float: left;
+}
+
+video {
+  border: solid;
+  width: 150px;
+  margin: 10px;
+  float: left;
+}
