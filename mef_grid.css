@@ -2,7 +2,7 @@ body {
   font-family: "Source code pro", Arial, Helvetica, sans-serif;
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 170px auto;
+  grid-template-columns: 15% auto;
 
   grid-template-rows: 100px auto;
   grid-template-areas:
@@ -58,4 +58,8 @@ video {
   width: 150px;
   margin: 10px;
   float: left;
+}
+
+p {
+  margin: 2%;
 }
