@@ -63,3 +63,40 @@ video {
 p {
   margin: 2%;
 }
+
+fieldset {
+  background-color: rgb(35, 211, 196);
+  border: 1px solid rgb(31, 184, 171);
+  color: white;
+  border-radius: 10px;
+  margin: 2%;
+  display: grid;
+  grid-template-areas:
+    "prenom" "prenom"
+    "age min" "age maj"
+    "envoi" "efface";
+}
+
+#champtxt {
+  color: gray;
+}
+
+legend {
+  background-color: rgb(38, 163, 153);
+  border-radius: 10px;
+  padding: 1.5%;
+  color: white;
+}
+
+#envoi {
+  background-color: rgb(38, 163, 115);
+  border-radius: 10px;
+  color: white;
+  padding: 1%;
+}
+#efface {
+  background-color: rgb(211, 125, 125);
+  border-radius: 10px;
+  color: white;
+  padding: 1%;
+}

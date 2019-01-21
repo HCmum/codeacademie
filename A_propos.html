@@ -18,6 +18,39 @@
       </ul>
     </nav>
 
-    <p>Fait par HCmum</p>
+    <section>
+      <form
+        method="post"
+        action="https://code-academie.free.beeceptor.com/helene"
+      >
+        <fieldset>
+          <legend>A propos de vous</legend>
+          <!-- Titre du fieldset -->
+          <p>
+            <label>Prénom</label>
+            <input
+              type="text"
+              name="prenom"
+              value="votre prénom"
+              id="champtxt"
+              required
+            />
+          </p>
+
+          <p>
+            <input type="radio" name="age" value="mineur" id="mineur" />
+            <label for="mineur">Mineur</label>
+
+            <input type="radio" name="age" value="majeur" id="majeur" />
+            <label for="majeur">Majeur</label>
+          </p>
+        </fieldset>
+
+        <input type="submit" value="Envoyer" id="envoi" />
+        <input type="reset" value="Effacer" id="efface" />
+      </form>
+
+      <p>Fait par HCmum</p>
+    </section>
   </body>
 </html>
